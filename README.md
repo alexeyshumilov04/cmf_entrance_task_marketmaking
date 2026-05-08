@@ -1,8 +1,8 @@
-# Performance Report: HFT Market Making Strategies (Python)
+# Performance Report: HFT Market Making Strategies 
 
 ## 1. Data Description
 
-**Instrument:** Cryptocurrency token (spot market)  
+**Instrument:** Cryptocurrency token 
 **Period:** August 1-7, 2024  
 **Data source:** Level-2 order book snapshots + trade tape
 
@@ -108,8 +108,13 @@ Comparison run (`scripts/run_experiments.py`) creates:
 
 ## 6. Installation
 
+Перейдите в папку проекта, например:
 ```powershell
 cd "d:\Development\Projects\CMF\python_backtester"
+```
+
+Создайте виртуальное окружение и установите зависимости:
+```powershell
 python -m venv .venv
 .\.venv\Scripts\Activate.ps1
 python -m pip install --upgrade pip
