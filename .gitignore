@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Build / packaging
+dist/
+build/
+*.egg-info/
+
+# Игнорируем локальные конфиги с паролями (если появятся)
+*.local.yaml
+
+# Игнорируем Jupyter checkpoint (если он окажется внутри)
+.ipynb_checkpoints/
+
+# Artifacts
+# reports/*.csv
+# reports/*.png
+# reports/as2008/
+# reports/microprice_as2018/
+
+# IDE
+.idea/
+.vscode/

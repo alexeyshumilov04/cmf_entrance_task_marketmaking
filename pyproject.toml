@@ -1,0 +1,18 @@
+[project]
+name = "python-backtester"
+version = "0.1.0"
+description = "Backtesting engine for Avellaneda-Stoikov market-making strategies"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "pandas",
+    "numpy",
+    "pyyaml",
+    "matplotlib",
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]

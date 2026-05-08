@@ -1,0 +1,23 @@
+strategy:
+  strategy: "microprice_as"
+  gamma: 0.01
+  kappa: 1.5
+  horizon_seconds: 520.0 # 3600.0
+  q_max: 50000.0
+  order_size: 1000.0
+  vol_window: 50
+  update_on_each_book_event: true
+  snapshot_every_n_books: 200
+  max_events: 200000
+
+data:
+  lob_csv: "../MD/lob.csv"
+  trades_csv: "../MD/trades.csv"
+
+output:
+  output_dir: "reports/quick_smoke"
+  report_md: "performance_report.md"
+  metrics_csv: "metrics_timeseries.csv"
+  fills_csv: "fills.csv"
+  pnl_plot_png: "pnl_inventory.png"
+  inventory_plot_png: "inventory_over_time.png"
