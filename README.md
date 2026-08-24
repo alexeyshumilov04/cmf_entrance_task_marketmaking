@@ -108,12 +108,12 @@ Comparison run (`scripts/run_experiments.py`) creates:
 
 ## 6. Installation
 
-Перейдите в папку проекта, например:
+Navigate to the project folder, for example:
 ```powershell
 cd "d:\Development\Projects\CMF\python_backtester"
 ```
 
-Создайте виртуальное окружение и установите зависимости:
+Create a virtual environment and install the dependencies:
 ```powershell
 python -m venv .venv
 .\.venv\Scripts\Activate.ps1
